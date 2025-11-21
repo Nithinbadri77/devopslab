@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<script src="sc.js" defer></script>
+<link rel="stylesheet" href="st.css">
+</head>
+<body>
+<center>
+<h2>Registration Form</h2>
+
+<form>
+<label>First Name</label>
+<input id="first"><br><br>
+
+<label>Last Name</label>
+<input id="last"><br><br>
+
+<label>Email</label>
+<input id="email" type="email"><br><br>
+
+<label>Password</label>
+<input id="password" type="password"><br><br>
+
+<label>Re-type Password</label>
+<input id="repassword" type="password"><br><br>
+
+<label>Contact</label>
+<input id="mobile" maxlength="10"><br><br>cd
+
+<label>Gender</label><br>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+<br><br>
+
+<button onclick="submitForm()">Register</button>
+</form>
+</center>
+
+<p id="msg"></p>
+
+</body>
+</html>
