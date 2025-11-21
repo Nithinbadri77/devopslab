@@ -15,5 +15,5 @@ function submitForm() {
     }
 
     document.getElementById("msg").innerHTML =
-        " Registration successful!";
+        " successful!";
 }
